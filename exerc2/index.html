@@ -1,0 +1,138 @@
+<!-- partir do layout da calculadora (calc1.html) de aulas atrás, crie
+funcionalidades para a página.
+• Faça com que o usuário consiga digitar Valores e Operações matemáticas no teclado. O funcionamento tem de ser parecido com esta calculadora: https://www.calculatorsoup.com/calculators/math/basic.php
+• Se for necessário, informações sobre a funcionalidade de MRC, M- e M+ podem ser encontradas em: https://brainly.com.br/tarefa/5354688 partir do layout da calculadora (calc1.html) de aulas atrás, crie funcionalidades para a página.
+• Faça com que o usuário consiga digitar Valores e Operações matemáticas no teclado. O funcionamento tem de ser parecido com esta calculadora: https://www.calculatorsoup.com/calculators/math/basic.php
+• Se for necessário, informações sobre a funcionalidade de MRC, M- e M+ podem ser encontradas em: https://brainly.com.br/tarefa/5354688-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculadora </title>
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora Básica</h1>
+
+        <div class="calculadora">
+            <div class="calculadora_caixa">
+                <tr>
+                    <td>
+                        <input type="text" id="tela" placeholder="0" disabled>
+                    </td>
+                </tr>
+
+                <div class="calculadora_teclas">
+                    <tr class="linha_memoria">
+                        <td>
+                            <button class="memoria">mc</button>
+                        </td>
+                        <td>
+                            <button class="memoria">mr</button>
+                        </td>
+                        <td>
+                            <button class="memoria">m-</button>
+                        </td>
+                        <td>
+                            <button class="memoria">m+</button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <button class="funcao">AC</button>
+                        </td>
+                        <td>
+                            <button class="funcao">√x</button>
+                        </td>
+                        <td>
+                            <button class="funcao">%</button>
+                        </td>
+                        <td>
+                            <button class="operadores">÷</button>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td>
+                            <button class="num">7</button>
+                        </td>
+                        <td>
+                            <button class="num">8</button>
+                        </td>
+                        <td>
+                            <button class="num">9</button>
+                        </td>
+                        <td>
+                            <button class="operadores">×</button>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td>
+                            <button class="num4">4</button>
+                        </td>
+                        <td>
+                            <button class="num5">5</button>
+                        </td>
+                        <td>
+                            <button class="num6">6</button>
+                        </td>
+                        <td>
+                            <button class="operadores">-</button>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td>
+                            <button class="num">1</button>
+                        </td>
+                        <td>
+                            <button class="num">2</button>
+                        </td>
+                        <td>
+                            <button class="num">3</button>
+                        </td>
+                        <td>
+                            <button class="operadores">+</button>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td>
+                            <button class="num">0</button>
+                        </td>
+                        <td>
+                            <button class="num">.</button>
+                        </td>
+                        <td>
+                            <button class="num">+/-</button>
+                        </td>
+                        <td>
+                            <button class="operadores_igual">=</button>
+                        </td>
+                    </tr>
+    
+                    <tr class="funcoes">
+                        <td>
+                            <button class="funcao">π</button>
+                        </td>
+                        <td>
+                            <button class="funcao">x <sup>y</sup></button>
+                        </td>
+                        <td>
+                            <button class="funcao">R2</button>
+                        </td>
+                        <td>
+                            <button class="funcao">R0</button>
+                        </td>
+                    </tr>
+
+                </div>
+            </div>
+        </div>
+</body>
+</html>
